@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 const personalDetailsRouter = require('./routes/PersonalDetailsRoutes');
 const addressDetailsRouter = require('./routes/AddressDetailsRoutes');
 const cartDetailsRouter = require('./routes/CartPageRoutes');
-const HomeRouter = require('./routes/HomeRoutes');
+const AboutRouter = require('./routes/HomeRoutes');
 
 //mongoose
 const mongoose = require('mongoose');
